@@ -1,6 +1,6 @@
 import { Servicio } from '../dominio/puertos/Servicio';
 import { ResultadoRevision, APIResponse } from '../dominio/entidades/types';
-import { API_ENDPOINT, API_KEY } from '../config/env';
+import { API_ENDPOINT, API_KEY } from './config/env';
 
 export const crearAdaptador = (): Servicio => ({
   async revisarTexto(texto: string): Promise<ResultadoRevision> {
