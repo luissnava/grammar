@@ -1,12 +1,4 @@
 import {ReactNode} from "react";
-export interface ErrorGramatical {
-  mensaje: string;
-  posicion: number;
-  longitud: number;
-  sugerencias: string[];
-  regla: string;
-  contexto: string;
-}
 
 export interface ResultadoRevision {
   textoOriginal: string;
